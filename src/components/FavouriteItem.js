@@ -4,7 +4,7 @@ import '../App.css'
 const FavouriteItem = ({ item, getFavourites }) => {
   //the function below deletes an item in the backend favourites array if the item.id matches the specified item
   const deleteFavourite = async () => {
-    await fetch(`https://itunes-server.onrender.com/api/delete/${item.id}`, {
+    await fetch(`/api/delete/${item.id}`, {
       method: 'DELETE',
     })
     getFavourites()
