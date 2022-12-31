@@ -11,11 +11,10 @@ button.
 ## Installing the app
 
 1. Clone/Download the project to your computer.
-2. In the command terminal cd into the my-itunes-app directory.
-3. Enter 'npm install'.
-4. To install the frontend enter 'cd frontend' and then enter 'npm install'.
-5. Enter 'cd..' to go back to the my-itunes-app directory.
-6. Enter the command 'npm run dev'. This command will start the frontend and the backend simultaneously
+2. In the command terminal cd into the root directory.
+3. cd into the frontend and type 'npm install'.
+4. then cd back into the root directory, cd into the backend and enter 'npm install'.
+5. Enter the command 'npm run dev'. This command will start the frontend and the backend simultaneously
 
 ## Testing the app
 
