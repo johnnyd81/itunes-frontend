@@ -7,7 +7,7 @@ const SearchItem = ({ item, getFavourites }) => {
   const addFavourite = () => {
     //the post request is made to the backend that adds the new favourite item to the backend favourites array
     axios
-      .post("/api/addItem", {
+      .post("https://itunes-server.onrender.com/api/addItem", {
         newItem: item,
       })
       .catch((error) => console.log("Error :", error));

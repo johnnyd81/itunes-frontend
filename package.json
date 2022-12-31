@@ -1,5 +1,4 @@
 {
-  "proxy": "https://itunes-server.onrender.com",
   "name": "itunes-app",
   "version": "0.1.0",
   "private": true,

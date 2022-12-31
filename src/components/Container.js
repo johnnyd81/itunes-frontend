@@ -33,7 +33,7 @@ const Container = ({ favourites, getFavourites, favouriteUI }) => {
 
   //the function below performs the call to the iTunes api and requests the data
   const searchSubmit = async () => {
-    const result = await fetch(`/search/${term}/${type}`)
+    const result = await fetch(`https://itunes-server.onrender.com/search/${term}/${type}`)
     const resData = await result.json()
     setDataOutput(resData.response)
   }
