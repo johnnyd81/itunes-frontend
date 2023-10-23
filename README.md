@@ -8,6 +8,11 @@ A favourites button takes a user to page that contains all the items that were s
 favourites page if a user decides to remove a favourite then the item can be removed by clicking on the delete
 button.
 
+![image](https://github.com/johnnyd81/itunes-frontend/assets/95863021/df866738-c603-40fe-80b9-cd9f099792f8)
+
+![Screenshot (65)](https://github.com/johnnyd81/itunes-frontend/assets/95863021/71082703-0bd2-4426-9332-76824da8eb67)
+
+
 ## Installing the app
 
 1. Clone/Download the project to your computer.
